@@ -52,7 +52,7 @@ export default function Footer() {
             />
           </div>
 
-          {/* 사업자 정보 및 SNS */}
+          {/* SNS */}
           <div className="flex flex-col gap-6">
             <div>
               <h4 className="mb-4 text-lg font-bold">Business Info</h4>
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* 하단 저작권 영역 */}
+        {/* 저작권 영역 */}
         <div className="mt-16 border-t border-gray-300 pt-8 text-center text-sm text-gray-500">
           © 2026 CARIV. All rights reserved.
         </div>

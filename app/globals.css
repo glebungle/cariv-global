@@ -5,6 +5,7 @@
   /* 폰트 변수 */
   --font-noto-arabic: var(--font-noto-arabic);
   --font-inter: var(--font-inter);
+  --font-pretendard: var(--font-pretendard);
   /* --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
   --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular; */
 
@@ -14,6 +15,7 @@
   --color-gray: #EDEDED;
   --color-gray2: #BFBFBF;
   --color-gray4: #FEFEFE;
+  --color-font: #3D3D3D;
 }
 
 :root {
