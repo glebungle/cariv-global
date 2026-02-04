@@ -16,7 +16,7 @@ export default function MyPageSideBar() {
         { name: "Edit Profile", href: "/mypage/profile" },
         { name: "Edit Basic Information", href: "/mypage/edit-info" },
         { name: "Identity Verification Status", href: "/mypage/verify" },
-        { name: "Set / Change Secondary PW", href: "/mypage/password" },
+        { name: "Set / Change Secondary PW", href: "/mypage/second-pw" },
       ],
     },
     { 

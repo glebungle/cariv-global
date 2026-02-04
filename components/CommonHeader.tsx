@@ -3,6 +3,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CommonHeader() {
   return (
@@ -61,12 +62,14 @@ export default function CommonHeader() {
           
           {/* 마이페이지 섹션 */}
           <div className="flex items-center gap-4 cursor-pointer group">
-            <div className="flex items-center gap-2">
-              <span className="text-sm font-medium text-[#3D3D3D] group-hover:text-primary transition-colors">My page</span>
-              <div className="w-9 h-9 bg-gray-100 rounded-full overflow-hidden relative border border-gray-200">
-                <Image src="/profile.png" alt="Profile" fill className="object-cover" />
+            <Link href="/mypage/profile">
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-medium text-[#3D3D3D] group-hover:text-primary transition-colors">My page</span>
+                <div className="w-9 h-9 bg-gray-100 rounded-full overflow-hidden relative border border-gray-200">
+                  <Image src="/profile.png" alt="Profile" fill className="object-cover" />
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="text-[#333] hover:text-primary transition-colors">
               <div className="relative h-5 w-5 shrink-0 mr-3">
                 <Image src="/icons/hamberger.png" alt="menu" fill className="object-cover" />
